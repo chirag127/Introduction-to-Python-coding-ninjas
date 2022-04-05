@@ -1,5 +1,5 @@
 def printLeaders(arr, n):
-    for i in range(0, n):
+    for i in range(n):
         for j in range(i, n):
             if (arr[i] < arr[j]):
                 break
